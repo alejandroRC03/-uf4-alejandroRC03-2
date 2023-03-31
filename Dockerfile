@@ -11,7 +11,7 @@ RUN mkdir /usr/share/nginx/html-2
 #EXPOSE 8181
 
 #Configurar el puerto en la configuracion de nginx
-#RUN sed -i 's/listen 80;/listen 818;/g' /etc/nginx
+#RUN sed -i 's/listen 80;/listen 81;/g' /etc/nginx
 
 # Inicia el servidor nginx
 CMD ["nginx", "-g", "daemon off;"]
